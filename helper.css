@@ -1,0 +1,157 @@
+li {
+	list-style-type: none;
+}
+
+.head-menu {
+	padding: 0.3em;
+	vertical-align: middle;
+	position: relative;
+}
+
+
+.greycolor {
+	background-color: #f7f7f7;
+}
+
+.header-text {
+	color: #868080;
+	font-size: 12px;
+}
+
+.horizontal-list {
+	top: 50%;
+	padding-left: 2em;
+}
+
+.horizontal-list li{
+	display: inline-block;
+}
+
+.info-menu {
+	padding: 1em;
+}
+
+.content-infor {
+	padding: 1em;
+	display: flex;
+}
+
+.content-infor>* {
+	display: inline-block;
+}
+
+.icon-section {
+	flex-grow: 7;
+}
+
+.search-section {
+	display: flex;
+	flex-grow: 3;
+}
+
+.search-section>*{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.drop-menu {
+	background-color: #7e4c4f;
+}
+
+.drop-menu li {
+	display: inline-block;
+	padding: 1em;
+	color: white;
+	position: relative;
+}
+
+.drop-menu li:nth-child(-n+5):after {
+
+	content: "";
+	background-color: transparent;
+	height: 0;
+	width: 0;
+	border-top: 5px solid white;
+	/*border-left: 1px solid red;*/
+	border-right: 5px solid transparent;
+	border-left:  5px solid transparent;
+	position: absolute;
+	top: 50%;
+	right: 0%;
+}
+
+.drop-menu .active {
+	color: #f6ab4a;
+}
+
+.drop-menu li:hover {
+	color: #f6ab4a;
+}
+
+.image-container {
+	height: 40%;
+}
+
+.image-container-content {
+	height: 100%;
+	width: 100%;
+}
+
+.image-container-content img {
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	position: relative;
+}
+
+.move-button {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: #f6ab4a;
+	z-index: 2;
+	position: absolute;
+	top: 50%;
+}
+
+.image-container-content a {
+
+}
+
+
+.image-container-content a:nth-child(3) {
+	left: 2%;
+}
+
+.image-container-content a:nth-child(3):before {
+
+	content: "";
+	height: 10px;
+	width: 10px;
+	background-color: transparent;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	transform: translateY(-50%) translateX(-50%) rotate(-45deg);
+}
+
+.image-container-content a:nth-child(2):before {
+
+	content: "";
+	height: 10px;
+	width: 10px;
+	background-color: transparent;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-top: 1px solid white;
+	border-right: 1px solid white;
+	transform: translateY(-50%) translateX(-50%) rotate(45deg);
+}
+
+.image-container-content a:nth-child(2) {
+	right: 2%;
+}
+
