@@ -1,5 +1,11 @@
+*{box-sizing: border-box;}
+
 li {
 	list-style-type: none;
+}
+
+body {
+	padding: 0;
 }
 
 /*img {
@@ -119,10 +125,6 @@ li {
 	top: 50%;
 }
 
-.image-container-content a {
-
-}
-
 
 .image-container-content a:nth-child(3) {
 	left: 2%;
@@ -167,14 +169,21 @@ li {
 }
 
 .container {
-	max-width: 1170px;
-	margin: 0 auto;
+	max-width: 100%;
+	width: 100%;
+	margin-bottom: 25px;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .small-title {
 	text-align: center;
 	color: #f6ab4a;
 	font-family: Pacifico;
+}
+
+.content {
+	padding: 1em;
 }
 
 .col-content {
@@ -202,7 +211,7 @@ li {
 	margin: 0 0 15px;
 }
 
-.content h2,h5 {
+.content, #dog-container h2,h5 {
 	text-align: center;
 	font-family: Fredoka One;
 }
@@ -219,7 +228,55 @@ li {
 	font-size: 12px;
 }
 
+#dog-container {
+	background-image:url("http://cdn.shopify.com/s/files/1/2805/9732/files/img5_b37c343a-c391-4799-bd81-862729ff153f.jpg?v=1517396385");
+	height: 70%;
+	min-height:30em;
+	margin-top: 75px;
+	background-repeat:no-repeat;
+	display:flex;
+	flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    grid-row:3/span 1;
+    color: white;
+    background-size: cover;
+}
 
+#dog-container h2 {
+	font-size: 45px;
+	padding: 0em 8em;
+}
+
+#dog-container p {
+	font-size: 12px;
+	padding: 0em 15em;
+	text-align: center;
+}
+
+.normal-text {
+
+	color: #868080;
+	font-size: 5px;
+	font-family: none;
+	font-weight: normal;
+}
+
+#section-move-slide {
+	background-image: url('http://cdn.shopify.com/s/files/1/2805/9732/files/tin.jpg?v=1519984883');
+	min-height:30em;
+	position: relative;
+}
+
+.content-block {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	background-color: red;
+	top: 0;
+	right: 0;
+}
 
 
 
