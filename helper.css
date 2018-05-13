@@ -186,6 +186,10 @@ body {
 	padding: 1em;
 }
 
+/*.content>* {
+	text-align: center;
+}*/
+
 .col-content {
 	text-align: center;
 }
@@ -258,7 +262,7 @@ body {
 .normal-text {
 
 	color: #868080;
-	font-size: 5px;
+	font-size: 12px;
 	font-family: none;
 	font-weight: normal;
 }
@@ -353,6 +357,47 @@ body {
 	transform: translateY(-50%) translateX(-50%) rotate(45deg);
 }
 
+.content h5,h2 {
+	text-align: center;
+}
+
+.big-title {
+	text-align: center;
+	font-size: 45px;
+	font-family: Fredoka One;
+	color: #7e4c4f;
+}
+
+.bottom-dashed {
+    border-bottom-width: 10px;
+	border-bottom: 1px dashed #e8e8e8;
+}
+
+[class^='col'] {
+	padding: 2em;
+	position: relative;
+}
+
+[class^='col']>* {
+	z-index: 10;
+}
+
+
+
+.highlight-image {
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	margin-bottom: 20px;
+}
+
+.active-col:hover {
+	background-color: #f6ab4a;
+}
 
 
 .row:after {
