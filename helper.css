@@ -385,11 +385,15 @@ body {
 }
 
 .flex-3 {
-	flex-grow: 3;
+	flex-grow: 4;
+	position: absolute;
+	top: 0;
+	left: 50%;
 }
 
 .flex-7 {
-	flex-grow: 7;
+	flex-grow: 6;
+	margin-top: 3em;
 }
 
 
@@ -405,7 +409,6 @@ body {
 }
 
 .highlight-image>* {
-	height: 100%;
 	width: 100%;
 }
 
@@ -413,6 +416,7 @@ body {
 
 .active-col:hover {
 	background-color: #f6ab4a;
+	position: relative;
 }
 
 
