@@ -12,7 +12,10 @@ body {
 	height: 100%;
 	width: 100%;
 }*/
-
+.container{
+  width:100%;
+ 
+}
 .head-menu {
 	padding: 0.3em;
 	vertical-align: middle;
@@ -224,12 +227,17 @@ body {
 	background-color:  #f6ab4a;
 	border-radius: 30px;
 	color: white;
-	padding: 1em 2em;
+  margin-top:.5em !important;
+	padding: 1em 1em !important; 
+  
+ 
 	width: 33.33%;
 	text-align: center;
-	display: inline-block;
-	margin: 0 auto;
+	
+	
 	font-size: 12px;
+ 
+ 
 }
 
 #dog-container {
@@ -366,11 +374,13 @@ body {
 	font-size: 45px;
 	font-family: Fredoka One;
 	color: #7e4c4f;
+  margin-bottom:.5em;
 }
 
 .bottom-dashed {
     border-bottom-width: 10px;
 	border-bottom: 1px dashed #e8e8e8;
+  margin : 1em 1em;
 }
 
 [class^='col'] {
@@ -385,32 +395,40 @@ body {
 }
 
 .flex-3 {
-	flex-grow: 4;
+	
 	position: absolute;
 	top: 0;
 	left: 50%;
+  transform:translate(-50%,-50%);
 }
 
 .flex-7 {
-	flex-grow: 6;
-	margin-top: 3em;
+
+	margin-top: 1.5em;
+ 
+}
+.flex-7 :nth-child(n){
+  padding-top:  .1em;
+  padding-bottom: .1em;
+ 
+}
+.button-dog{
+  transform:translateY(10px);
 }
 
-
+  
 .highlight-image {
-	height: 150px;
-	width: 150px;
+	width:100%;
 	border-radius: 100%;
-	position: absolute;
-	top: 0;
-	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
-	margin-bottom: 20px;
+}
+.petcare{
+  display:flex;
+ 
+}
+.active-col{
+  margin: 1em 1em;
 }
 
-.highlight-image>* {
-	width: 100%;
-}
 
 
 
@@ -418,15 +436,25 @@ body {
 	background-color: #f6ab4a;
 	position: relative;
 }
-
+.pet-item{
+  width:33.333333%;
+  margin-right:.5em;
+  margin-left:.5em;
+}
 
 .row:after {
 	content: "";
 	clear: both;
 	display: table;
 }
-
-
+.pet-shel{
+  display:flex;
+}
+.pet-shel :nth-child(n){
+ 
+  border:1px solid black;
+  
+}
 
 /*Extra small*/
 @media (min-width: 320px){
@@ -491,4 +519,3 @@ body {
   .col-lg-11{width: 91.6667%;}
   .col-lg-12{width: 100%;}
 }
-
