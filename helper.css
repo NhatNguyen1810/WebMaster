@@ -376,12 +376,21 @@ body {
 [class^='col'] {
 	padding: 2em;
 	position: relative;
+	display: flex;
+	flex-direction: column;
 }
 
 [class^='col']>* {
 	z-index: 10;
 }
 
+.flex-3 {
+	flex-grow: 3;
+}
+
+.flex-7 {
+	flex-grow: 7;
+}
 
 
 .highlight-image {
@@ -394,6 +403,13 @@ body {
 	transform: translateX(-50%) translateY(-50%);
 	margin-bottom: 20px;
 }
+
+.highlight-image>* {
+	height: 100%;
+	width: 100%;
+}
+
+
 
 .active-col:hover {
 	background-color: #f6ab4a;
