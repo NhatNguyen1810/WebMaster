@@ -9,6 +9,10 @@ body {
 }
 
 /*img {
+	width: 100%;
+}*/
+
+/*img {
 	height: 100%;
 	width: 100%;
 }*/
@@ -493,6 +497,44 @@ body {
 	padding: 1.5em 0 1.5em 0;
 }
 
+.highlight {
+
+	color: #868080;
+    background: #f6f4f0;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    padding: 5px 15px;
+    font-family: Open Sans;
+}
+
+.highlight:hover {
+	background-color: #f6ab4a;
+}
+
+#bird-title {
+	font-size: 28px;
+	transition: all 0.4s ease-in-out;
+}
+
+#bird-title:hover {
+	color: #f6ab4a;
+	text-decoration: none;	
+}
+
+.Read-more {
+	color: #f6ab4a;
+	transition: all 0.4s ease-in-out;
+}
+
+.Read-more:hover {
+	color: #7e4c4f; 
+	text-decoration: none;
+}
+
+.Read-more:before {
+
+}
 
 
 /*Extra small*/
