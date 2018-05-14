@@ -283,6 +283,7 @@ body {
 	right: 0;
 	text-align: center;
 	display: flex;
+	flex-direction: column;
 }
 
 .content-block li {
@@ -443,6 +444,53 @@ body {
 	width: 100%;
 	height: 700px;
 	background-size: cover;
+}
+
+.special-text {
+	color: #f6ab4a;
+	padding-left: 0;
+	text-decoration: none;
+	font-family: Fredoka One;
+	font-size: 20px;
+	font-weight: normal;
+	padding-left: 2em;
+}
+
+.special-text:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.last-minus{
+	position: relative;
+}
+
+.last-minus:after {
+	width: 100px;
+	height: 100px;
+	right: 0%;
+	top: 0%;
+	position: absolute;
+	border-top: 1px solid #f6ab4a;
+	background-color: red;
+}
+
+.simple-format {
+	margin: 0 0 15px 0;
+	color: white;
+	font-size: 14px;
+    line-height: 1.7;
+    font-family: Open Sans;
+    text-align: left;
+}
+
+.speard-col-format {
+	padding: 0 5em 0 5em;
+}
+
+.speard-col-format>* {
+	
+	padding: 1.5em 0 1.5em 0;
 }
 
 
