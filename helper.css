@@ -291,8 +291,10 @@ body {
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+
  
   padding: .1em .1em;
+
 }
 
 .content-block li{
@@ -510,6 +512,12 @@ body {
 
 .speard-col-format>* {
 	padding : .1em .1em ; 
+}
+
+.speard-col-format>* {
+	
+	padding: 1.5em 0 1.5em 0;
+
 }
 
 .highlight {
